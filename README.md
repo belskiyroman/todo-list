@@ -8,4 +8,6 @@ npm start
 ```
 
 By default server stated on port 3000 
-```http://localhost:3000```
+```
+http://localhost:3000
+```
