@@ -11,7 +11,9 @@ var db = {
 	tasks: {}
 };
 
-app.listen(config.port);
+app.listen(config.port, function () {
+	console.log('Server started: http://localhost:' + config.port);
+});
 
 app.use(bodyParser.urlencoded({
 	extended: false
