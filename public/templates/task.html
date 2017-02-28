@@ -1,0 +1,19 @@
+<!-- task -->
+<div class="col-lg-1 checkbox-block">
+	<input type="checkbox" class="statusTask" <%= (done ? 'checked="checked"' : '') %>>
+</div>
+<div class="col-lg-9 task-text">
+	<span class="h4"><%= title %></span>
+	<textarea type="text" class="form-control editTitle" name="edit-task" style="display: none;"></textarea>
+</div>
+<div class="col-lg-2 btns-wrap">
+	<div class="standart-tools">
+		<i class="fa fa-arrows move"></i>|
+		<i class="fa fa-pencil edit"></i>|
+		<i class="fa fa-trash remove"></i>
+	</div>
+	<div class="edit-tools" style="display: none;">
+		<i class="fa fa-check btn yes"></i>
+		<i class="fa fa-times btn no"></i>
+	</div>
+</div>

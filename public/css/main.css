@@ -1,0 +1,201 @@
+* {
+	-moz-user-select: -moz-none;
+	-o-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+html {
+	background-image: url('/img/bg.png');
+	background-attachment: fixed;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	background: transparent;
+	width: 1125px;
+	height: 100%;
+	margin: 0px auto;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 2.1em;
+    letter-spacing: -0.2px;
+    margin-bottom: 0;
+}
+
+.h4 {
+	display: inline-block;
+}
+
+body > header {
+	text-align: center;
+	padding-top: 36px;
+	padding-bottom: 45px;
+	border-top: 5px solid black;
+}
+
+body > header > h4 {
+    letter-spacing: -0.3px;
+	margin-top: 2px;
+}
+
+/*article {
+  margin: 0 auto;
+  max-width: 702px;
+}*/
+
+.project {
+	background: white;
+	margin-bottom: 50px;
+	padding-right: 0;
+	padding-left: 0;
+	padding-bottom: 0;
+	padding-top: 0;
+	border-radius: 0 0 15px 15px;
+}
+
+.project > header {
+	padding: 10px 0;
+	font-size: 1.5em;
+	background: rgb(66, 112, 168);
+	border-top: 1px rgb(175, 180, 211) double;
+	box-shadow: 0 1px 0 rgba(255,255,255,0.4) inset;
+}
+
+
+.project > header i {
+	cursor: pointer;
+}
+
+.project .add-task {
+	background: rgb(217, 217, 217);
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-right: 36px;
+	border: 1px solid #b5b2ab;
+}
+
+.project input.project-header {
+	color: black;
+	outline: none;
+}
+
+.project .project-header {
+	color: white;
+	font-size: 1em;
+	text-align: left;
+	/*width: 548px;*/	
+	display: inline-block;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.project > header > * {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	line-height: normal;
+}
+
+.project-tools {
+	color: rgb(152, 176, 210);
+}
+
+.input-group .fa {
+	display: table-cell;
+}
+
+.fa-list-alt {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.project .fa-plus {
+	background: transparent;
+	border: 0px;
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-right: 24px;
+	padding-left: 18px;
+	color: rgb(88, 145, 113);
+	font-size: 30px;
+}
+
+.task-list {
+	border: 1px solid #b5b2ab;
+	border-top: none;
+	border-radius: 0 0 15px 15px;
+	color: #999999;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.3);
+	min-height: 40px;
+	background: rgb(224, 223, 255);
+	overflow: hidden;
+}
+
+.task-list input {
+	margin-top: 10px;
+}
+
+.task {
+	background: white;
+	border-bottom: 1px solid #e7ebea;
+}
+
+.task i {	
+	cursor: pointer;
+}
+
+.task:hover {
+	background: rgb(252, 254, 213);
+}
+
+.task > div {
+    display: table-cell;
+    min-height: 40px;
+}
+
+
+.task:last-of-type {
+	border-bottom: none;
+}
+
+.btns-wrap i {
+    margin: 10px 7%;
+}
+
+.checkbox-block {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.task-text {
+	border-left: 6px double #e7ebea;
+	border-right: 1px solid #e7ebea;
+}
+
+.editTitle {
+	margin: 10px;
+}
+
+.edit-tools {
+    display: flex;
+}
+
+.done {
+	background: #d8fdd8;
+}
+
+footer {
+	margin: 0px auto;
+	text-align: center;
+}
+
+footer .copyright {
+	color: white;
+}

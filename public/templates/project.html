@@ -1,0 +1,27 @@
+<!-- project -->
+<!-- <article class="col-lg-offset-2 col-lg-8 project"> -->
+	<header class="col-lg-12">
+		<i class="col-lg-1 fa fa-list-alt fa-lg"></i>
+		<!-- Complete the test task for Ruby Garage -->
+		<span class="col-lg-9 project-header" <% if (!title) { %> style="display: none" <% } %>><%= title %></span>
+		<input class="col-lg-9 project-header" type="text" placeholder="Project name..." autofocus  <% if (title) { %> style="display: none" <% } %>>
+		<div class="col-lg-2 project-tools" <% if (!title) { %> style="display: none" <% } %>>
+			<i class="col-lg-4 fa fa-pencil edit"></i>
+			<i class="col-lg-4">|</i>
+			<i class="col-lg-4 fa fa-trash remove"></i>
+		</div>
+		<div class="col-lg-2 project-tools" <% if (title) { %> style="display: none" <% } %>>
+			<i class="col-lg-6 fa fa-check btn yes"></i>
+			<i class="col-lg-6 fa fa-times btn no"></i>
+		</div>
+	</header>
+	<div class="col-lg-12 input-group add-task">
+		<i class="fa fa-plus input-group-addon"></i>
+		<input type="text" name="task-describe" class="form-control" placeholder="Start typing here to create a task...">
+		<div class="input-group-btn">
+			<button class="btn btn-success add-task-go">Add Task</button>
+		</div>
+	</div>
+	
+	<div class="task-list clearfix"></div>
+<!-- </article> -->
